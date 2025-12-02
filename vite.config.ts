@@ -1,5 +1,6 @@
-import { defineConfig, UserConfig } from 'vite'
+import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import type { UserConfig } from 'vite' // Добавляем type-only импорт
 
 export default defineConfig({
   plugins: [react()],
